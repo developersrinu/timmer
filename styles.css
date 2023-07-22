@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: black; */
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.timer-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.timer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.timer .time {
+    font-size: 24px;
+}
+
+.timer .stop-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
